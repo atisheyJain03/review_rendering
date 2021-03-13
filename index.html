@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+    <h2 class="review__heading--title">CUSTOMER REVIEWS</h2>
+    <div class="rating">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star-half checked"></span></span>
+      <span class="fa fa-star"></span>
+    </div>
+    <!-- <div class="cards">
+        <div class="card">
+            <div class="card-top">
+              <div class="name">
+                <div class="img one" alt="">NF</div>
+                <div>
+                  <div class="rate">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half checked">
+                    <span class="fa fa-star"></span>
+                  </div>
+                    <p>Full Name</p>    
+                </div>
+              </div>
+             
+            </div>
+            
+            <div class="card-content">
+              <h2 class="card-content-heading">This is heading</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur, impedit ullam provident deserunt repellendus fuga totam exercitationem minima molestias?</p>
+            </div>
+            
+            <div class="card-action">
+              <span>13 Feb, 2021</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-top">
+              <div class="name">
+                <div class="img one" alt="">NF</div>
+                <div>
+                  <div class="rate">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half checked">
+                    <span class="fa fa-star"></span>
+                  </div>
+                    <p>Full Name</p>    
+                </div>
+              </div>
+             
+            </div>
+            
+            <div class="card-content">
+              <h2 class="card-content-heading">This is heading</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem consequuntur, impedit ullam provident deserunt repellendus fuga totam exercitationem minima molestias?</p>
+            </div>
+            
+            <div class="card-action">
+              <span>13 Feb, 2021</span>
+            </div>
+          </div>
+    </div>
+    <div class="pagination">
+      
+      <a class="btn-prev btn pagination" id = "prev">prev</a>
+      <p class="pagination-page-number" >2</p>
+      <a class="btn-next btn pagination" id = "next">next</a>
+    </div>
+    <div class="loader">
+      <div class="loader loader-1">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+      </div>   
+    </div>
+  
+    </div> -->
+   
+    <a href="#form-popup" class="popup-btn">write a review </a>
+    <div class="form-popup" id="form-popup">
+      <div class="form-popup--content">
+        <a href="#" class="popup-close">x</a>       
+        <div class="review-form">
+          <form>
+            <label for="name">name:</label>
+            <input type="text" id="name" name="fname" required  placeholder="Enter your name (public)">
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email (private)">
+            <label for="review-heading">Review Heading:</label>
+            <input type="text" id="review-heading" name="review-heading" placeholder="Give your review a atitle(public)" >
+            <label for="review-description">Review description:</label>
+            <textarea id="review-description" name="review-description" rows="3" cols="50" > </textarea>
+            <button>submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+   <footer></footer>
+  </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="script.js" > </script>
+</html>
